@@ -8,6 +8,10 @@ Built on top of [Traditional-Antivirus](https://github.com/Konloch/Traditional-A
 + SQLite for database storage.
 + Automatically updates from ClamAV's DB[2], Malware Bazaar[3], VirusShare[4], Yaraify[5] & Yara[1].
 
+## How To Use
++ Clone repo & open folder in Intellij.
++ Run YaraAntiVirus with the argument of the file or folder you want to scan.
+
 ## Links
 1) https://github.com/VirusTotal/yara
 2) https://github.com/Cisco-Talos/clamav
