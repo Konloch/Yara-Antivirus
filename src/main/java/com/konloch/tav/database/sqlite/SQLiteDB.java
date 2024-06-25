@@ -1,7 +1,7 @@
 package com.konloch.tav.database.sqlite;
 
 import com.konloch.YaraAntivirus;
-import com.konloch.tav.scanning.FileSignature;
+import com.konloch.tav.database.malware.FileSignature;
 
 import java.io.File;
 import java.sql.*;

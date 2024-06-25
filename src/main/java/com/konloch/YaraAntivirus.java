@@ -1,18 +1,13 @@
 package com.konloch;
 
-import com.konloch.disklib.DiskWriter;
-import com.konloch.tav.database.downloader.*;
-import com.konloch.tav.database.malware.MalwareScanners;
+import com.konloch.tav.downloader.*;
+import com.konloch.tav.scanning.MalwareScanners;
 import com.konloch.tav.database.sqlite.SQLiteDB;
-import com.konloch.tav.scanning.DetectedSignatureFile;
-import com.konloch.tav.scanning.MalwareScanFile;
-import com.konloch.tav.utils.ResourceUtils;
+import com.konloch.tav.database.malware.DetectedSignatureFile;
+import com.konloch.tav.database.malware.MalwareScanFile;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
-
-import static com.konloch.tav.utils.HashUtils.doesFileMatchBytes;
 
 /**
  * @author Konloch

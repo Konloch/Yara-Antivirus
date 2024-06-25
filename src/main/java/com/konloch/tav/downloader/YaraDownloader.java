@@ -1,4 +1,4 @@
-package com.konloch.tav.database.downloader;
+package com.konloch.tav.downloader;
 
 import com.konloch.YaraAntivirus;
 import com.konloch.httprequest.HTTPRequest;

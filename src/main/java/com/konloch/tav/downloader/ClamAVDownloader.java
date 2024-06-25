@@ -1,7 +1,7 @@
-package com.konloch.tav.database.downloader;
+package com.konloch.tav.downloader;
 
 import com.konloch.YaraAntivirus;
-import com.konloch.tav.scanning.FileSignature;
+import com.konloch.tav.database.malware.FileSignature;
 import com.konloch.tav.utils.HashUtils;
 import com.konloch.util.FastStringUtils;
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry;

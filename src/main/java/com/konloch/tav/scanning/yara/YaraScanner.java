@@ -1,8 +1,8 @@
-package com.konloch.tav.database.malware.yara;
+package com.konloch.tav.scanning.yara;
 
 import com.konloch.YaraAntivirus;
-import com.konloch.tav.database.malware.MalwareScanner;
-import com.konloch.tav.scanning.MalwareScanFile;
+import com.konloch.tav.scanning.MalwareScanner;
+import com.konloch.tav.database.malware.MalwareScanFile;
 
 import java.io.*;
 import java.util.ArrayList;

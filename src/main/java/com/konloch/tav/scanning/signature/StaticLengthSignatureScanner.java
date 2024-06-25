@@ -1,9 +1,9 @@
-package com.konloch.tav.database.malware.signature;
+package com.konloch.tav.scanning.signature;
 
 import com.konloch.YaraAntivirus;
-import com.konloch.tav.scanning.FileSignature;
-import com.konloch.tav.scanning.MalwareScanFile;
-import com.konloch.tav.database.malware.MalwareScanner;
+import com.konloch.tav.database.malware.FileSignature;
+import com.konloch.tav.database.malware.MalwareScanFile;
+import com.konloch.tav.scanning.MalwareScanner;
 
 import java.util.List;
 
