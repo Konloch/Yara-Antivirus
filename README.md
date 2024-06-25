@@ -5,7 +5,8 @@ Built on top of [Traditional-Antivirus](https://github.com/Konloch/Traditional-A
 
 ## Features
 + Scans using Yara & File signatures.
-+ Automatically updates from ClamAV's DB[2], Malware Bazaar[3], VirusShare[4] & Yaraify[5].
++ SQLite for database storage.
++ Automatically updates from ClamAV's DB[2], Malware Bazaar[3], VirusShare[4], Yaraify[5] & Yara[1].
 
 ## Links
 1) https://github.com/VirusTotal/yara
